@@ -16,10 +16,10 @@ const Navbar = () => {
     //navItems
     const navItems = [
         { path: "/", link: "Home" },
-        { path: "/service", link: "Service" },
-        { path: "/about", link: "About" },
-        { path: "/blogs", link: "Blogs" },
-        { path: "/contact", link: "Contact" },
+        { path: "/service", link: "Research" },
+        { path: "/about", link: "Softwares" },
+        { path: "/blogs", link: "Graphics" },
+        { path: "/contact", link: "About" },
     ]
 
     //modal details
@@ -33,7 +33,7 @@ const Navbar = () => {
     return (
         <header className='bg-black text-white fixed top-0 left-0 right-0'>
             <nav className='px-4 py-4 max-w-7x1 mx-auto flex justify-between items-center'>
-                <a href='/' className='text-x1 font-bold text-white'>Design<span className='text-orange-500'>DK</span></a>
+                <a href='/' className='text-x1 font-bold text-white'>Odaa<span className='text-orange-500'>Karraa</span></a>
 
                 {/* navitems for lg devices */}
                 <ul className='md:flex gap-12 text-lg hidden'>
