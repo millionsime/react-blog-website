@@ -1,8 +1,8 @@
 
 import { NavLink } from 'react-router-dom'
-
+import './basic.scss';
 // react icons 
-import { FaBars, FaDribbble, FaFacebook, FaTwitter, FaXmark } from "react-icons/fa6";
+import { FaBars, FaDribbble, FaFacebook, FaLinkedin, FaTwitter, FaXmark } from "react-icons/fa6";
 import { useState } from 'react';
 import Modal from './Modal';
 
@@ -31,7 +31,7 @@ const Navbar = () => {
         setIsMenuOpen(false);
     }
     return (
-        <header className='bg-black text-white fixed top-0 left-0 right-0'>
+        <header className='navbar__container fixed top-0 left-0 right-0'>
             <nav className='px-4 py-4 max-w-7x1 mx-auto flex justify-between items-center'>
                 <a href='/' className='text-x1 font-bold text-white'>Odaa<span className='text-orange-500'>Karraa</span></a>
 
@@ -54,6 +54,7 @@ const Navbar = () => {
 
                 {/* menu icons */}
                 <div className='text-white lg:flex gap-4 items-center hidden'>
+                <a href='/' className='hover:text-orange-500'><FaLinkedin/></a>
                     <a href='/' className='hover:text-orange-500'><FaFacebook/></a>
                     <a href='/' className='hover:text-orange-500'><FaDribbble/></a>
                     <a href='/' className='hover:text-orange-500'><FaTwitter/></a>
