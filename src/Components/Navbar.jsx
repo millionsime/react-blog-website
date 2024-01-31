@@ -16,9 +16,9 @@ const Navbar = () => {
     //navItems
     const navItems = [
         { path: "/", link: "Home" },
-        { path: "/service", link: "Research" },
-        { path: "/about", link: "Softwares" },
-        { path: "/blogs", link: "Graphics" },
+        { path: "/blogs", link: "Blog" },
+        { path: "/about", link: "Download" },
+        { path: "/service", link: "Graphics" },
         { path: "/contact", link: "About" },
     ]
 
@@ -33,7 +33,7 @@ const Navbar = () => {
     return (
         <header className='navbar__container fixed top-0 left-0 right-0'>
             <nav className='px-4 py-4 max-w-7x1 mx-auto flex justify-between items-center'>
-                <a href='/' className='text-x1 font-bold text-white'>Odaa<span className='text-orange-500'>Karraa</span></a>
+                <a href='/' className='text-x1 font-bold text-white'>Oda<span className='text-orange-500'>Karra</span></a>
 
                 {/* navitems for lg devices */}
                 <ul className='md:flex gap-12 text-lg hidden'>
